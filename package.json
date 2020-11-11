@@ -7,6 +7,7 @@
     "dev.tsc": "tsc --watch",
     "dev.hr": "nodemon ./dist/index.js",
     "dev": "concurrently \"npm run dev.tsc\" \"npm run dev.hr\"",
+    "prod": "tsc",
     "test": "jest"
   },
   "repository": {
