@@ -1,0 +1,33 @@
+{
+  "name": "gsheet-functions",
+  "version": "1.0.0",
+  "description": "A simple repository to create and test Google Sheets custom functions using typescript.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev.tsc": "tsc --watch",
+    "dev.hr": "nodemon ./dist/index.js",
+    "dev": "concurrently \"npm run dev.tsc\" \"npm run dev.hr\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonataspiazzi/gsheet-functions.git"
+  },
+  "keywords": [
+    "Google",
+    "Sheets",
+    "Custom",
+    "Functions",
+    "Typescript"
+  ],
+  "author": "Jonatas Piazzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonataspiazzi/gsheet-functions/issues"
+  },
+  "homepage": "https://github.com/jonataspiazzi/gsheet-functions#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.0.5"
+  }
+}
